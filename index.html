@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="./images/devchallenges.png" />
 
     <link
       rel="shortcut icon"
@@ -16,80 +16,59 @@
       href="https://devchallenges.io/"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    
+    <title>Interior Consultant</title>
 
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+  <body id="body">
+    <header class="flex-container-nav">
+      <a href="#" class="nav-brand">THIS INTERIOR</a>
+      <span class="material-icons burger" id="burger">menu</span>
+      <span class="material-icons x" id="x">clear</span>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-link"><a href="#" class="nav-item active">Home</a></li>
+          <li class="nav-link"><a href="#" class="nav-item">Collection</a></li>
+          <li class="nav-link"><a href="#" class="nav-item">About</a></li>
+          <li class="nav-link"><a href="#" class="nav-item">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <div class="interior-details flex-container">
+
+      <div class="interior-text-content">
+        <h1 class="interior-title">Modern Interior</h1>
+        <p class="interior-description">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+        <a href="#" class="interior-link">Read More...</a>
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <div class="interior-image-content">
+        <img src="./images/photo1.png" alt="Modern Interior" class="interior-image">
+      </div>
+
     </div>
+
+    <div class="creator">
+      <div class="creator-details">
+         <img src="./images/photo2.png" alt="Alice" class="creator-image">
+        <div class="creator-info">
+          <h3 class="creator-name">Aliza Webber</h3>
+          <p class="creator-job">Interior Designer</p>
+        </div>
+      </div>
+     <h2 class="tag">Designed in 2020 by Aliza Webber</h2>
+    </div>
+    
+    <footer>
+      <div>
+        Big Twig @DevChallenges.io
+      </div>
+    </footer>
+    <script defer src="./js/index.js"></script>
   </body>
 </html>
