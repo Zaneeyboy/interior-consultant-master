@@ -16,59 +16,60 @@
       href="https://devchallenges.io/"
     />
 
+    <title>Devchallenges</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    
-    
-    <title>Interior Consultant</title>
-
   </head>
-  <body id="body">
-    <header class="flex-container-nav">
-      <a href="#" class="nav-brand">THIS INTERIOR</a>
-      <span class="material-icons burger" id="burger">menu</span>
-      <span class="material-icons x" id="x">clear</span>
-      <nav class="navbar">
-        <ul class="nav-list">
-          <li class="nav-link"><a href="#" class="nav-item active">Home</a></li>
-          <li class="nav-link"><a href="#" class="nav-item">Collection</a></li>
-          <li class="nav-link"><a href="#" class="nav-item">About</a></li>
-          <li class="nav-link"><a href="#" class="nav-item">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <div class="interior-details flex-container">
-
-      <div class="interior-text-content">
-        <h1 class="interior-title">Modern Interior</h1>
-        <p class="interior-description">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
-        <a href="#" class="interior-link">Read More...</a>
-      </div>
-
-      <div class="interior-image-content">
-        <img src="./images/photo1.png" alt="Modern Interior" class="interior-image">
-      </div>
-
-    </div>
-
-    <div class="creator">
-      <div class="creator-details">
-         <img src="./images/photo2.png" alt="Alice" class="creator-image">
-        <div class="creator-info">
-          <h3 class="creator-name">Aliza Webber</h3>
-          <p class="creator-job">Interior Designer</p>
+  <body>
+   <header>
+    <nav class="navbar">
+      <a href="#" class="navbar-brand">THIS INTERIOR</a>
+      <span id="navbar-opener" class="navbar-toggler material-icons" >menu</span>
+      <div class="modal" id="menu-modal">
+        <span id="modal-closer">&times</span>
+        <div class="modal-content">
+          <a class="nav-item active" href="#">Home</a>
+          <a class="nav-item" href="#">Collection</a>
+          <a class="nav-item" href="#">About</a>
+          <a class="nav-item" href="#">Contact</a>
         </div>
       </div>
-     <h2 class="tag">Designed in 2020 by Aliza Webber</h2>
-    </div>
-    
-    <footer>
-      <div>
-        Big Twig @DevChallenges.io
+      <ul class="nav-links">
+        <li class="nav-link"><a href="#" class="nav-item active">Home</a></li>
+        <li class="nav-link"><a href="#" class="nav-item">Collection</a></li>
+        <li class="nav-link"><a href="#" class="nav-item">About</a></li>
+        <li class="nav-link"><a href="#" class="nav-item">Contact</a></li>
+      </ul>
+    </nav>
+   </header>
+
+   <main class="content">
+      <div class="text-content">
+        <h1 class="title">Modern Interior</h1>
+        <p class="description">A full service residential & commericial interior design and staging company offering professional organizing & eco-services.</p>
+        <a class="link" href="#">Read More...</a>
       </div>
-    </footer>
-    <script defer src="./js/index.js"></script>
+      <div class="image-container">
+        <img class="image-content" src="./images/photo1.png" alt="Interior">
+      </div>
+   </main>
+   <div class="profile">
+    <div class="details">
+      <img class="profile-img" src="./images/photo2.png" alt="Aliza">
+      <div class="text-details">
+        <h3 class="name">Aliza Webber</h3>
+        <p class="job-title">Interior Designer</p>
+      </div>
+    </div>
+    <h2 class="tagline">Designed in 2020 by Aliza Webber</h2>
+   </div>
+
+   <footer>
+     <div class="footer-container">
+       <p class="footer-text">Big Twig @DevChallenges.io</p>
+     </div>
+   </footer>
+   <script src="./js/index.js"></script>
   </body>
 </html>
