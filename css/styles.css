@@ -404,13 +404,15 @@ body{
     }
 
     .modal{
-        padding:1rem 1.5rem;
+        padding:0.5rem 1.5rem 1rem 1.5rem;
     }
 
-    #modal-closer {
+    .modal-action{
         display:flex;
-        justify-content:flex-end;
-        font-size: 3rem;
+        justify-content: flex-end;
+    }
+    #modal-closer {
+        font-size: 2rem;
     }
 
     .navbar-brand {
@@ -517,10 +519,17 @@ body{
         display: inline-block;
     }
 
-    #modal-closer {
+    .modal {
+        padding: 0.5rem 1.5rem 1rem 1.5rem;
+    }
+
+    .modal-action {
         display: flex;
         justify-content: flex-end;
-        font-size: 3rem;
+    }
+
+    #modal-closer {
+        font-size: 2rem;
     }
 
     .navbar-toggler {
