@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{https://zaneeyboy.github.io/interior-consultant-master/}">
+    <a href="https://zaneeyboy.github.io/interior-consultant-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{https://github.com/Zaneeyboy/interior-consultant-master}">
+    <a href="https://github.com/Zaneeyboy/interior-consultant-master">
       Solution
     </a>
     <span> | </span>
